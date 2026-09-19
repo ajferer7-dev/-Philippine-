@@ -82,7 +82,16 @@ body {
 
 .menu a {
     text-decoration: none;
+}
+
+.menu.color {
     color: rgb(206, 229, 89);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.menu.color:hover {
+    color: rgb(39, 236, 39);
 }
 
 .color {
