@@ -634,7 +634,7 @@ body {
 
     padding: 25px;
 
-    color: rgb(247, 254, 146);
+    color: rgb(218, 249, 94);
 
     z-index: 2;
 
@@ -642,7 +642,10 @@ body {
     opacity: 0.8;
 
     transition: 0.5s ease;
+    
+    text-shadow: 19px 19px 10px rgba(0, 0, 0, 0.7);
 }
+
 
 .card-info h2 {
     margin-bottom: 10px;
@@ -656,16 +659,19 @@ body {
     color: #f9f9f7;
 }
 
-.card-info button {
+.card-info a {
     padding: 9px 20px;
+    text-decoration: none;
 
     border: none;
     border-radius: 20px;
 
-    background: white;
-    color: black;
+    background: rgb(58, 142, 179);
+    color: white;
 
     cursor: pointer;
+
+    margin-bottom: 20px;
 }
 
 .left-card {
@@ -676,7 +682,7 @@ body {
 
 .middle-card {
     left: 300px;
-    top: -5px;
+    top: -1px;
 
     width: 300px;
     height: 450px;
